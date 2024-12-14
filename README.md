@@ -21,7 +21,7 @@ npm run start
 
 ### ```POST /scrape```
 
-#### Caso 1: Scrapping de las últimas 48 horas de todas las obras establecidas por defecto.
+#### Caso 1: Scraping de las últimas 48 horas de todas las obras establecidas por defecto.
 
 ```
 Request: 
@@ -35,7 +35,7 @@ Response:
 }
 ```
 
-#### Caso 2: Scrapping de todas las obras establecidas por defecto en un rango de fechas
+#### Caso 2: scraping de todas las obras establecidas por defecto en un rango de fechas
 
 ```
 Request: 
@@ -53,7 +53,7 @@ Response:
 }
 ```
 
-#### Caso 3: Scrapping de obras específicas con rango de fechas
+#### Caso 3: scraping de obras específicas con rango de fechas
 ```
 Request: 
 POST http://localhost:3000/scrape
@@ -71,7 +71,7 @@ Response:
 }
 ```
 
-#### Caso 4: Scrapping de obras específicas en las últimas 48 horas
+#### Caso 4: scraping de obras específicas en las últimas 48 horas
 
 ```
 Request: 
